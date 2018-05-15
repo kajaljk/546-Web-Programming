@@ -1,0 +1,18 @@
+{
+  "name": "cs-546-lab-7",
+  "version": "1.0.0",
+  "description": "lab 7 API Development and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kajal Khunt (CWID : 10429885)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "node-uuid": "^1.4.8"
+  }
+}

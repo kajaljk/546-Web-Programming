@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "0.0.1",
+  "description": "lab 6 fundamentals of web development",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kajal Khunt (CWID : 10429885)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

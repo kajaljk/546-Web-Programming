@@ -1,0 +1,20 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "A Simple User Login System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kajal Khunt (CWID : 10429885)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+		"cookie-parser": "^1.4.3",
+		"bcrypt": "^2.0.0",
+		"express-handlebars": "^3.0.0",
+		"handlebars": "^4.0.11",
+		"path": "^0.12.7"
+  }
+}

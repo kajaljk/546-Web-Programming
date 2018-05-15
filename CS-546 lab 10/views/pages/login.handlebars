@@ -1,0 +1,28 @@
+<article class="login">
+  <h1>Login</h1>
+  <main>
+      <form action="/login" method="POST" autocomplete="on" id="login-form">
+         <div id="boxes">
+            <p>
+                <label for="username"> Your Username </label>
+                <input id="username" name="username" required="required" type="text" placeholder="Enter Username" />
+            </p>
+            <p>
+                <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" />
+            </p>
+        </div>
+        <p class="button">
+            <input type="submit" value="Sign In" />
+        </p>
+      </form>
+  </main>
+  <br/>
+  <main>
+    {{#if hasErrors}}
+        <p class="error">   
+            {{errors}}
+        </p>
+    {{/if}}
+</main>  
+</article>

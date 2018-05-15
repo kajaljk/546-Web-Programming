@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+ .btn-green{
+    display: inline-block;
+    font-weight: 200;
+    line-height: 1.25;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    color: white;
+    background-color: #0b720b;
+    border-color: #044604;
+}
+
+
+.btn-blue{
+    display: inline-block;
+    font-weight: 100;
+    line-height: 0.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    color: white;
+    background-color:#17889c;
+    border-color: #0d4553;
+}
+
+.success{
+    color:#28a745;
+    font-size: 18pt !important;
+}
+
+.failure{
+    color:#dc3545;
+    font-size: 18pt !important;
+}
+
+.error{
+    color:rgb(145, 11, 11);
+    background-color: rgb(240, 147, 147);
+    margin: 5px;
+}

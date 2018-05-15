@@ -1,0 +1,30 @@
+<article class="new-palindrom">
+  <h1>The Best Palindrome Checker in the World!</h1>
+  <main>
+      <p>
+            A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or racecar. 
+            For example, the following phrases are palindromes:
+            <ul>
+                <li>Was it a cat I saw?</li>
+                <li>Go hang a salami, I’m a lasagna hog.</li>
+                <li>Poor Dan is in a droop</li>
+                <li>He did, eh?</li>
+            </ul>
+            Here, you will enter any text or string to check wheather it is palindrom or not.
+      </p>
+  
+      <form action="/palindrome" method="POST" class="new-palindrom-form">
+        <label for="palindrom-text">Enter Text</label>
+        <input type="text" id="palindrom-text" name="text-to-test" size="70"><br/>
+        <button type="submit" class="btn-center">Submit</button>
+      </form>
+  </main>
+  <br/>
+  <main>
+    {{#if hasErrors}}
+        <p class="error">   
+            {{errors}}
+        </p>
+    {{/if}}
+</main>  
+</article>

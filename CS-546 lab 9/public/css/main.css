@@ -1,0 +1,109 @@
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+  }
+  
+  main {
+    max-width: 75%;
+    margin: auto;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #333;
+    margin-bottom: 10px !important;
+  }
+  
+  h1 {
+    color: inherit;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+  h5 {
+    font-size: 1.15rem;
+  }
+  
+  h6 {
+    font-size: 1.05rem;
+  }
+
+  #attempts {
+    width: 75%;
+    font-size: 1.5rem;
+    margin: 10px 2px;
+  }
+  
+  .not-palindrome {
+    color:#FF0000;
+  }
+  
+  .is-palindrome {
+    color: #0000FF;
+  }
+  
+  header {
+    border-bottom: 1px solid #afafaf;
+    margin: 0 0 12px;
+    text-align: center;
+    color: #b48608;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Droid serif', serif;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+  
+  .alert-danger{
+    border-color: #a94442;
+  }
+
+  .alert-success{
+    border-color: #3c763d;
+  }
+  .alert{
+    padding: 5px;
+    margin-bottom: 25px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 15px;
+  }
+
+  .btn-default {
+    color: white;
+    background-color: rgb(40, 60, 132);
+    border-color: rgb(11, 6, 48);
+    padding: 10px 10px;
+    font-weight: 700;
+  }
+
+  textarea.form-control{
+    padding:10px 15px;
+    font-size: 16px;
+  }
